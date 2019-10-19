@@ -1,0 +1,61 @@
+body{
+    
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: 'Merriweather', serif;
+    color: goldenrod;
+    font-size: 20px;
+}
+.conatainer{
+    width: 85%;
+    margin: auto;
+}
+.jumbotron{
+    background-color: black;
+    opacity: 0.95;
+    border-radius: 10px;
+    border: 2px ridge goldenrod; 
+    margin-bottom: 50px;
+}
+.row{
+    margin-bottom: 30px;
+}
+#display-card{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    background-color: black;
+}
+#display-card-header{
+    border: 2px double goldenrod; 
+}
+#display-card-body{
+    border: 2px double goldenrod; 
+}
+#display-table-header{
+    border: 2px double black; 
+}
+tr{
+    border: 2px double black; 
+}
+#display-table-body{
+    background-color: rgb(73, 69, 42);
+}
+
+#add-train-card{
+    background-color: black;
+}
+#add-card-header{
+    border: 2px double goldenrod; 
+}
+#add-card-body{
+    border: 2px double goldenrod; 
+}
+#train-name-input,#destination-input,#first-time-input,#frequency-input{
+    background-color: rgb(73, 69, 42);
+    border: 2px double black; 
+    color: goldenrod;
+}
+#add-train-button{
+    background-color: goldenrod;
+    letter-spacing: 2px;
+}
